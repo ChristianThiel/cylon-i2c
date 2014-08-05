@@ -147,7 +147,7 @@ describe('Cylon.Drivers.I2C.Mpu6050', function() {
         t: 44.06470588235294
       };
 
-      expect(callback).to.be.calledWith(expected)
+      expect(callback).to.be.calledWith(null, expected)
     });
   });
 });
